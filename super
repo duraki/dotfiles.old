@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Supercopy script for dotfiles.
+# I do not like keeping dotfiles literally in my revision system.
+# Whenever I do a fresh install, most of the trash in dots is being removed.
+
+# run as ./super; will copy dotfiles to <here>.
+
+# COLCONST
+RED='\033[0;31m'
+GRE='\033[0;32m'
+PUR='\033[0;35m'
+NC='\033[0m'
+
+# SYSCONST
+REPO='https://github.com/duraki/dotfiles'
+
+TMUX_CONF_LOC=~/.config/.tmux.conf
+REPOSYS=$(pwd)
+
+copy() {
+    echo -e "${GRE}Copying from $1 to $2 ..."
+    cp $1 $2
+}
+
+copy $TMUX_CONF_LOC $REPOSYS
+
+echo -e "\n${NC}All done! ${PUR}Check: $REPO"
