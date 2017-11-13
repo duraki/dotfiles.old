@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Matrix
+Comment=~ waits
+GenericName=Terminal Emulator
+Exec=gnome-terminal
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=GTK;System;TerminalEmulator;
+StartupNotify=true
+X-Desktop-File-Install-Version=0.22
+X-XFCE-Source=file:///usr/share/applications/xfce4-terminal.desktop
+Path=
