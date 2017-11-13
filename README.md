@@ -19,11 +19,6 @@ There are of course some pre-requirements for this to work:
 * These files are constantly changed through day to day usage
 * You are running UNIX like system
   
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 | `Key` | `Value` |
 |  ---  |  -----  |
 |**Machine**|Macbook Air 2015|
