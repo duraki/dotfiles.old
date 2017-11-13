@@ -22,14 +22,17 @@ GTK3_CONF_LOC=~/.config/gtk-3.0/gtk.css
 ZSHRC_CONF_LOC=~/.zshrc
 ALIAS_CONF_LOC=~/.config/aliases
 
+XFCE_DIR_LOC=~/.config/xfce4
+
 copy() {
     echo -e "${GRE}Copying from $1 to $2 ..."
-    cp $1 $2
+    cp -R $1 $2
 }
 
 copy $TMUX_CONF_LOC $REPOSYS
 copy $GTK3_CONF_LOC $REPOSYS
 copy $ALIAS_CONF_LOC $REPOSYS
 copy $ZSHRC_CONF_LOC $REPOSYS
+copy $XFCE_DIR_LOC $REPOSYS
 
 echo -e "\n${NC}All done! ${PUR}Check: $REPO"
