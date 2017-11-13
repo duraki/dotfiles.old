@@ -26,7 +26,7 @@ There are of course some *pre-requirements* for this to work:
 |**Term Font**|Fira Mono 9|
 
 <p align="center">
-  <img src="img/term.png" width="450"/>
+  <img src="img/term.png" width="450px"/>
 </p>
 
 ## XFCE4
