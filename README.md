@@ -1,4 +1,4 @@
-Hello and welcome to `~/dotfiles`.
+Hello and welcome to `~/dotfiles` [imgur album](https://imgur.com/gallery/39NBP), [/r/unixporn](https://www.reddit.com/r/unixporn/comments/7cium5/xfce_redhat_mial_macbook/).
   
 This is my very own collection of configuration I've been making for years now, either adding or removing something, constant use of automation and keybindings. I'm professionally oriented in dev/ops/sec so most things are defined around that.  
   
@@ -27,12 +27,12 @@ There are of course some *pre-requirements* for this to work:
 
 ## XFCE4
   
+It's powerful, micro and beautiful, if you make it that way. It's not resource
+hungry and it's perfect deskenv imo. It's excatly what DE has to be.
+
 <p align="center">
   <img src="imgs/term.png" width="550"/>
 </p>
-
-It's powerful, micro and beautiful, if you make it that way. It's not resource
-hungry and it's perfect deskenv imo. It's excatly what DE has to be.
   
 ### Panel
 
