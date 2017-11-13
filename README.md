@@ -1,19 +1,12 @@
 Hello and welcome to `~/dotfiles`.
   
-This is my very own collection of configuration I've been making for
-years now, either adding or removing something, constant use of automation
-and keybindings. I'm professionally oriented in dev/ops/sec so most things
-are defined around that.
-
-First and foremost, these are all basic stuff, but please for the sake of good,
-don't just copydrop all the stuff. Create and learn from this repository and
-enjoy your environment in unique way.
+This is my very own collection of configuration I've been making for years now, either adding or removing something, constant use of automation and keybindings. I'm professionally oriented in dev/ops/sec so most things are defined around that.  
   
-These configuration or part of it were used on many of my system-of-choice, from
- old Ubuntu 8.04 to MacOS HS. These fine lines are probably (atm) powering RHEL7  
- or I might be deadlocked from my remote :scream:.
-
-There are of course some pre-requirements for this to work:
+First and foremost, these are all basic stuff, but please for the sake of good, don't just copydrop all the stuff. Create and learn from this repository and enjoy your environment in unique way.
+   
+These configuration or part of it were used on many of my system-of-choice, from old Ubuntu 8.04 to MacOS HS. These fine lines are probably (atm) powering RHEL7 or I might be deadlocked from my remote :scream:.  
+  
+There are of course some *pre-requirements* for this to work:
 
 * Key are mapped to Macbook, Mac or Apple-like keyboard
 * These files are constantly changed through day to day usage
@@ -32,7 +25,9 @@ There are of course some pre-requirements for this to work:
 |**Font**|DejaVu Sans 7|
 |**Term Font**|Fira Mono 9|
 
-[img/sf]
+<p align="center">
+![term](img/term.png)
+</p>
 
 ## XFCE4
   
