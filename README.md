@@ -34,9 +34,42 @@ There are of course some pre-requirements for this to work:
 [img/sf]
 
 ## XFCE4
-
+  
 It's powerful, micro and beautiful, if you make it that way. It's not resource
 hungry and it's perfect deskenv imo. It's excatly what DE has to be.
   
-* `xfce4/panel/launcher-10/#.desktop` - Terminal entry launcher from panel
+### Panel
+
+> Native XFCE4 panel
+  
+* `xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml` - Panel main config  
+* `xfce4/panel/launcher-10/#.desktop` - Terminal entry launcher from panel  
 * `xfce4/panel/cpugraph-11.rc` - A small dot-style cpu graph [img/c]
+
+### Terminal + Zsh + Tmux
+
+> Gnome Terminal with OhMyZSH+Tmux
+  
+* `xfce4/terminal/terminalrc` - Terminal main config (+ custom colors)
+* `dida.zsh-theme` - I use my own version of `gitster` called *dida* (name
+  is long story)  
+* `.tmux.conf` - Place this in your `~/.config` and source it from home
+  - I have another repository for `Tmuxinator` configs for fast cluster 
+    access  
+* `.zshrc`, `aliases` - I keep my zshrc clean and use sourced als
+
+### GTK + WM + Desktop   
+
+> Nightmare from ob with Arc as GTK, seamless experience
+  
+* `gtk.css` - Custom config for GTK3  
+* `xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml` - Workspaces  
+* `xfce4/xfconf/xfce-perchannel-xml/xsettings.xml` - Theme/Icon config
+  
+### Dev + Keyboard
+
+> Neovim, custom keymaps and integration taken seriously with term-emu
+  
+* `.vimrc` - Keeps only my plugins since these are changed constantly  
+* `.nvimrc` - My prefered Vim env / custom colors  
+* `xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml` - HR_hr
