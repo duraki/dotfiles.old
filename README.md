@@ -25,12 +25,12 @@ There are of course some *pre-requirements* for this to work:
 |**Font**|DejaVu Sans 7|
 |**Term Font**|Fira Mono 9|
 
-<p align="center">
-  <img src="imgs/term.png" width="450"/>
-</p>
-
 ## XFCE4
   
+<p align="center">
+  <img src="imgs/term.png" width="550"/>
+</p>
+
 It's powerful, micro and beautiful, if you make it that way. It's not resource
 hungry and it's perfect deskenv imo. It's excatly what DE has to be.
   
