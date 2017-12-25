@@ -21,6 +21,8 @@ TMUX_CONF_LOC=~/.config/.tmux.conf
 GTK3_CONF_LOC=~/.config/gtk-3.0/gtk.css
 ZSHRC_CONF_LOC=~/.zshrc
 ALIAS_CONF_LOC=~/.config/aliases
+VIM_CONF_LOC=~/.vimrc
+NVIM_CONF_LOC=~/.nvimrc
 
 XFCE_DIR_LOC=~/.config/xfce4
 
@@ -33,6 +35,9 @@ copy $TMUX_CONF_LOC $REPOSYS
 copy $GTK3_CONF_LOC $REPOSYS
 copy $ALIAS_CONF_LOC $REPOSYS
 copy $ZSHRC_CONF_LOC $REPOSYS
+copy $VIM_CONF_LOC $REPOSYS
+copy $NVIM_CONF_LOC $REPOSYS
+
 copy $XFCE_DIR_LOC $REPOSYS
 
 echo -e "\n${NC}All done! ${PUR}Check: $REPO"
