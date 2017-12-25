@@ -7,6 +7,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export EDITOR=nvim
 
+# https://developers.redhat.com/blog/2014/03/19/permanently-enable-a-software-collectionk
+source ~/.config/php7.sh
+
 if [ -f ~/.config/aliases ]; then
     source ~/.config/aliases
 fi
