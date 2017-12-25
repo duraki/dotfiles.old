@@ -1,18 +1,18 @@
 UpdateInterval=0
 TimeScale=0
-Size=18
+Size=16
 Mode=0
-Frame=0
-Border=1
+Frame=1
+Border=0
 Bars=0
 TrackedCore=0
 Command=top
 InTerminal=1
 StartupNotification=0
 ColorMode=0
-Foreground1=#e2e2e2e2e2e2
-Foreground2=#ffff00000000
+Foreground1=#c4bdde3dc4bd
+Foreground2=#b8649e519e51
 Foreground3=#00000000ffff
-Background=#1f1f1f1f1f1f
+Background=#2322128b128b
 BarsColor=#1f1f1f1f1f1f
 
