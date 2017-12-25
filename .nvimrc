@@ -4,7 +4,7 @@ set nocompatible
 set noswapfile
 
 if (has("termguicolors"))
-	set termguicolors
+    set termguicolors
 endif
 
 let mapleader = "\<Space>"
@@ -46,8 +46,6 @@ set nobackup
 set hidden
 set history=150
 set mouse=v
-set t_Co=256
-set t_ut=
 
 set listchars=tab:>-,extends:>,precedes:<
 set tags=./tags;/
@@ -120,6 +118,7 @@ highlight SignColumn guibg=#1C1C1C
 highlight Error guibg=#343434 guifg=#747474
 highlight ErrorMsg guibg=#343435 guifg=#747474
 highlight VertSplit guifg=#1F1717
+highlight Normal guibg=#171717 ctermfg=251
 set fillchars+=vert:\/
 
 " fastswitch
@@ -132,4 +131,11 @@ map <C-l> <C-w>l
 tnoremap <Esc> <C-\><C-n>
 set sh=/bin/zsh
 
+" fix omni/supertab scroll
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
+" fix for ale / lint
+let g:airline#extensions#ale#enabled = 1
+
+set t_Co=256
+set t_ut=
