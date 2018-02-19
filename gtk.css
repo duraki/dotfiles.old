@@ -8,3 +8,20 @@ vte-terminal {
     padding: 10px;
     padding-bottom: 2px;
 }
+
+TerminalWindow .notebook tab {
+  background-color: #AAA;
+}
+
+TerminalWindow .notebook tab:active {
+  background-color: #FFF;
+}
+
+/**
+menu menuitem,
+.menu menuitem {
+      background-color: #171717 !important;
+      border: solid rgba(0, 0, 0, 0.08);
+      border-width: 1px 0 1px 0; 
+}
+*/

@@ -60,6 +60,7 @@ nnoremap <leader>, :CtrlPTag<cr>
 nnoremap <leader>q :CtrlPQuickfix<cr>
 nnoremap <tab> :CtrlPBuffer<cr>
 nnoremap <leader>a :CtrlPBuffer<cr>
+nnoremap <leader>+ :marks<cr>
 
 set pastetoggle=<F2>
 set splitbelow
@@ -130,6 +131,7 @@ map <C-l> <C-w>l
 " terminal
 tnoremap <Esc> <C-\><C-n>
 set sh=/bin/zsh
+autocmd VimEnter * nested vsplit term://zsh
 
 " fix omni/supertab scroll
 let g:SuperTabDefaultCompletionType = "<c-n>"
@@ -139,3 +141,10 @@ let g:airline#extensions#ale#enabled = 1
 
 set t_Co=256
 set t_ut=
+
+" highlight active pane by RN
+augroup BgHighlight
+    autocmd!
+    autocmd WinEnter * set relativenumber
+    autocmd WinLeave * set norelativenumber
+augroup END

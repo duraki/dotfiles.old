@@ -5,3 +5,8 @@ alias webpdf=chrome --headless --disable-gpu --print-to-pdf $1
 alias vim=nvim
 alias art='php artisan'
 alias metasploit='sudo docker run --rm -it -p 443:443 -v ~/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data remnux/metasploit'
+alias tor='sudo chown $USER:$USER /run/tor && tor'
+alias td='synclient TouchpadOff=1'
+alias c='crystal'
+alias t='tmux'
+alias ta='tmux attach-session -t $1'

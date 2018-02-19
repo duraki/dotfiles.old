@@ -23,3 +23,5 @@ function dx {
 export PATH="$PATH:$HOME/.rvm/bin"
 # RHEL requires pkg-config hardcode for libquery 
 export PKG_PROG_PKG_CONFIG=/usr/bin/pkg-config
+
+export PATH=/home/devil/.local/bin/luna-studio:$PATH
