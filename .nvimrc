@@ -12,6 +12,7 @@ let mapleader = "\<Space>"
 filetype plugin indent on
 filetype plugin on
 
+set autoread
 set number
 set relativenumber
 set wrap
