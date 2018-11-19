@@ -1,14 +1,21 @@
 alias mux=tmuxinator $1
 alias muxr=tmux source-file $HOME/.tmux.conf
 alias :q=exit
+alias E=exit
+alias tailf=tail -f $1
 alias webpdf=chrome --headless --disable-gpu --print-to-pdf $1
-alias vim=nvim
 alias art='php artisan'
 alias metasploit='sudo docker run --rm -it -p 443:443 -v ~/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data remnux/metasploit'
-alias tor='sudo chown $USER:$USER /run/tor && tor'
+alias kali='sudo docker run -it kalilinux/kali-linux-docker -v ~/.kali/etc:/etc/
+-v /tmp/:/tmp'
 alias td='synclient TouchpadOff=1'
 alias c='crystal'
 alias t='tmux'
 alias ta='tmux attach-session -t $1'
 alias fixj='sudo route del -net 172.20.0.0 gw 0.0.0.0 netmask 255.255.0.0 dev br-d064e972fcca'
 alias vultr='ssh root@45.32.152.50'
+alias getsoa='nslookup -type=soa $1'
+alias rabin='rabin2 -A -cc -e -E -H -I -U $1'
+alias ip='curl -s icanhazip.com'
+alias git stayus='git status'
+alias theme="osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to 1'"
