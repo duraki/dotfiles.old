@@ -1,0 +1,4 @@
+sbar statusbar add -after erotin -alignment right awaybar
+set trackbar_string _
+set trackbar_style %r
+sbar awl_0 add -before awl_0 -alignment left usercount

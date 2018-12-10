@@ -1,0 +1,27 @@
+e cfg.fortunes = false
+e cfg.bigendian = true
+
+e scr.utf8 = true
+e scr.color = true
+
+# asm
+e asm.cmt.col = 80
+e asm.comments = true
+e asm.highlight = true
+e asm.hints = true
+e asm.lines.call = true
+e asm.lines.right = true
+e asm.lines.wide = true
+e asm.lines.width = 8
+e asm.trace = true
+# e asm.pseudo = true
+
+# graphs
+e graph.cmtright = true
+e graph.title = gfxview
+
+# scr
+scr.color.grep = true
+
+# stack
+stack.anotated = true
