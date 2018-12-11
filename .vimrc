@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
@@ -19,7 +19,7 @@ Plugin 'jacoborus/tender.vim'
 Plugin 'rhysd/vim-crystal'
 Plugin 'docteurklein/php-getter-setter.vim'
 Plugin 'adoy/vim-php-refactoring-toolbox'
-Plugin 'w0rp/ale'
+"Plugin 'w0rp/ale'
 
 call vundle#end()
 filetype plugin indent on
