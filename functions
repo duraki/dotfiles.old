@@ -1,0 +1,51 @@
+#!/bin/sh
+# shell functions
+
+# colorize
+color() {
+	color=${1}; shift
+	text=${@}
+	echo -n "[3${color}m${text}[00m"
+}
+
+# xfce-specific funcs
+xf-restart-panel() {
+	xfce4-panel --restart
+}
+
+# start things in new X server
+ox() {
+	xinit $(which $1) -- :1
+}
+
+# extract files
+x () {
+	if [ -f "$1" ] ; then
+		case "$1" in
+		*.rar) unrar x "$1" ;;
+		*.tar) tar xvf "$1" ;;
+		*.xz) xz -d "$1" ;;
+		*.Z) uncompress "$1" ;;
+		*) bsdtar -xf "$1" || echo "Unable to extract $1." ;;
+		esac
+	else
+		echo "Usage: x [files]"
+	fi
+}
+
+# make patch
+mkpatch() {
+	diff -Naur $1 $2 > $3
+}
+
+# manpages with colors
+man() {
+	env LESS_TERMCAP_mb=$(printf '\e[01;31m') \
+		LESS_TERMCAP_md=$(printf '\e[01;38;5;74m') \
+		LESS_TERMCAP_me=$(printf '\e[0m') \
+		LESS_TERMCAP_se=$(printf '\e[0m') \
+		LESS_TERMCAP_so=$(printf '\e[38;5;246m') \
+		LESS_TERMCAP_ue=$(printf '\e[0m') \
+		LESS_TERMCAP_us=$(printf '\e[04;38;5;146m') \
+    man "$@"
+}

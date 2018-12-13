@@ -1,0 +1,16 @@
+#!/bin/sh
+# environment variables
+
+# programs
+export EDITOR="nvim"
+export VIEWER="nvim"
+
+alias vim=nvim $1
+export PATH=/home/duraki/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/duraki/.rvm/bin
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+

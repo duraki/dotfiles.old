@@ -15,15 +15,15 @@ There are of course some *pre-requirements* for this to work:
 | `Key` | `Value` |
 |  ---  |  -----  |
 |**Machine**|Macbook Air 2015|
-|**OS**|RHEL7|
+|**OS**|Debian 9|
 |**Shell**|zsh+om|
 |**DE**|Xfce4|
 |**WM**|OpenBox|
-|**WM Theme**|Nightmare|
-|**GTK Theme**|OSX Arc Shadow|
-|**Icon Theme**|Papirus Adapta Nokto|
-|**Font**|DejaVu Sans 7|
-|**Term Font**|Fira Mono 9|
+|**WM/Openbox Theme**|Nightmare|
+|**GTK Theme**|vimix-dark-laptop|
+|**Icon Theme**|Papirus-Dark|
+|**Font**|Tamsyn 9|
+|**Term Font**|Tamsyn 9|
 
 ## XFCE4
   
@@ -58,9 +58,12 @@ hungry and it's perfect deskenv imo. It's excatly what DE has to be.
 
 > Nightmare from ob with Arc as GTK, seamless experience
   
-* `gtk.css` - Custom config for GTK3  
+* `gtk-2.css` - Custom config for GTK2  
+* `gtk-3.css` - Custom config for GTK3  
 * `xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml` - Workspaces  
 * `xfce4/xfconf/xfce-perchannel-xml/xsettings.xml` - Theme/Icon config
+* `vimix-dark-laptop(-*)` - For GTK theme
+* XFCE Settings - Appearance - Style - `Adawita-dark`
   
 ### Dev + Keyboard
 
@@ -69,3 +72,4 @@ hungry and it's perfect deskenv imo. It's excatly what DE has to be.
 * `.vimrc` - Keeps only my plugins since these are changed constantly  
 * `.nvimrc` - My prefered Vim env / custom colors  
 * `xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml` - HR_hr
+

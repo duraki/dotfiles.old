@@ -1,3 +1,16 @@
+/**
+ * GTK3.mine # custom UI
+ *
+ * author: @duraki
+ * web	 : twitter.com/0xduraki
+ **/
+
+/* custom family, uses terminal-based to match composition */
+.xfce4-panel {
+   font-family: "Tamsyn", Monospace;
+   font-size: 8px;
+}
+
 VteTerminal,
 TerminalScreen {
     padding: 10px 10px 10px 10px;
@@ -17,11 +30,9 @@ TerminalWindow .notebook tab:active {
   background-color: #FFF;
 }
 
-/**
 menu menuitem,
 .menu menuitem {
       background-color: #171717 !important;
       border: solid rgba(0, 0, 0, 0.08);
       border-width: 1px 0 1px 0; 
 }
-*/
