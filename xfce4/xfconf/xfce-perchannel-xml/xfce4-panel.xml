@@ -6,106 +6,127 @@
     <value type="int" value="1"/>
     <value type="int" value="2"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=720;y=14"/>
-      <property name="size" type="uint" value="20"/>
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="background-alpha" type="uint" value="100"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="16"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
+        <value type="int" value="16"/>
+        <value type="int" value="18"/>
         <value type="int" value="5"/>
-        <value type="int" value="11"/>
-        <value type="int" value="6"/>
-        <value type="int" value="2"/>
-        <value type="int" value="7"/>
+        <value type="int" value="8"/>
         <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
         <value type="int" value="13"/>
+        <value type="int" value="14"/>
       </property>
-      <property name="background-color" type="array">
-        <value type="uint" value="7967"/>
-        <value type="uint" value="7967"/>
-        <value type="uint" value="7967"/>
-        <value type="uint" value="65535"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.180392"/>
+        <value type="double" value="0.203922"/>
+        <value type="double" value="0.211765"/>
+        <value type="double" value="1.000000"/>
       </property>
-      <property name="leave-opacity" type="uint" value="55"/>
-      <property name="enter-opacity" type="uint" value="55"/>
       <property name="span-monitors" type="bool" value="false"/>
-      <property name="output-name" type="string" value="monitor-0"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="length-adjust" type="bool" value="true"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=8;x=78;y=873"/>
-      <property name="size" type="uint" value="20"/>
-      <property name="nrows" type="uint" value="1"/>
-      <property name="length" type="uint" value="40"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-color" type="array">
-        <value type="uint" value="9766"/>
-        <value type="uint" value="9766"/>
-        <value type="uint" value="9766"/>
-        <value type="uint" value="65535"/>
-      </property>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="10"/>
-        <value type="int" value="8"/>
-        <value type="int" value="12"/>
-      </property>
+      <property name="position" type="string" value="p=8;x=96;y=1055"/>
+      <property name="size" type="uint" value="17"/>
+      <property name="mode" type="uint" value="0"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="background-alpha" type="uint" value="86"/>
-      <property name="span-monitors" type="bool" value="true"/>
+      <property name="length" type="uint" value="13"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.086667"/>
+        <value type="double" value="0.080022"/>
+        <value type="double" value="0.080022"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="15"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="button-title" type="string" value=""/>
-      <property name="button-icon" type="string" value="atmosphere"/>
+      <property name="button-icon" type="string" value="transform-scale-textbox-points"/>
+      <property name="button-title" type="string" value="~          "/>
     </property>
-    <property name="plugin-3" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="/home/devil"/>
-      <property name="icon-name" type="string" value="remote-folder-sync"/>
-    </property>
-    <property name="plugin-4" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="1"/>
-    </property>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="2"/>
-      <property name="expand" type="bool" value="false"/>
-    </property>
-    <property name="plugin-6" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
-      <property name="workspace-scrolling" type="bool" value="false"/>
-      <property name="miniature-view" type="bool" value="false"/>
-    </property>
-    <property name="plugin-7" type="string" value="clock"/>
-    <property name="plugin-8" type="string" value="tasklist">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="0"/>
       <property name="show-labels" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="true"/>
       <property name="show-handle" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="show-wireframes" type="bool" value="false"/>
       <property name="window-scrolling" type="bool" value="false"/>
-      <property name="sort-order" type="uint" value="1"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
       <property name="include-all-workspaces" type="bool" value="false"/>
     </property>
-    <property name="plugin-2" type="string" value="power-manager-plugin"/>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15099824092.desktop"/>
-      </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="3"/>
     </property>
-    <property name="plugin-11" type="string" value="cpugraph"/>
-    <property name="plugin-12" type="string" value="separator">
-      <property name="style" type="uint" value="1"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+      <property name="miniature-view" type="bool" value="true"/>
     </property>
-    <property name="plugin-9" type="string" value="pulseaudio">
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1011;chromium.instance1024;chromium.instance1076;chromium.instance1289;chromium.instance1405;chromium.instance1494;chromium.instance154203;chromium.instance1713;chromium.instance1736;chromium.instance24355;chromium.instance29647;chromium.instance4149;chromium.instance945;chromium.instance9525;chromium.instance972;vlc;vlc.instance240135;vlc.instance240180;vlc.instance240219;vlc.instance240249;vlc.instance240293;vlc.instance240325;vlc.instance240860;vlc.instance241141;vlc.instance248725;vlc.instance248851;vlc.instance249157;vlc.instance278293;vlc.instance278321;vlc.instance278365;vlc.instance278391;vlc.instance278418"/>
     </property>
-    <property name="plugin-13" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="15119439281.desktop"/>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="timezone" type="string" value="Europe/Zagreb"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="background-color" type="string" value="#232323232323"/>
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+        <property name="font-description" type="string" value="Hack 9"/>
+      </property>
+      <property name="new-window" type="empty">
+        <property name="width" type="int" value="240"/>
+        <property name="height" type="int" value="300"/>
       </property>
     </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15682868951.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="3"/>
+    </property>
+    <property name="plugin-16" type="string" value="cpugraph"/>
+    <property name="plugin-18" type="string" value="netload"/>
   </property>
 </channel>
