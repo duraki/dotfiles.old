@@ -1,0 +1,11 @@
+[user]
+	name = duraki
+	email = duraki@linuxmail.org
+[push]
+	default = simple
+[core]
+	excludesfile = $HOME/.gitignore
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
