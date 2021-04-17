@@ -1,0 +1,11 @@
+# ~/.tmuxinator/adlab.yml
+
+name: adlab
+root: ~/
+
+windows:
+    - attack:
+        layout: even-vertical
+        panes:
+            - ssh halis@172.22.2.148
+            - ssh halis@172.22.2.148
