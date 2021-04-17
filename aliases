@@ -41,3 +41,33 @@ alias kali='sudo docker run -it kalilinux/kali-linux-docker -v ~/.imgs/.kali/etc
 alias vultr='ssh root@45.32.152.50'
 alias nexploit='ssh root@34.205.64.106'
 alias nexploitvps='ssh -D 5555 -J ubuntu@ec2-3-91-54-226.compute-1.amazonaws.com root@10.0.1.143'
+
+# backup macos
+alias torip='sudo killall -HUP tor && curl --socks5 127.0.0.1:9050 http://checkip.amazonaws.com/' # new tor ip handler
+
+# usual stuff
+alias fwoff=/usr/libexec/ApplicationFirewall/socketfilterfw --setblockall off
+alias fwon=/usr/libexec/ApplicationFirewall/socketfilterfw --setblockall on
+
+alias :q=exit
+alias E=exit
+alias q=exit
+
+alias tailf=tail -f $1
+
+alias muxr=tmux source-file $HOME/.tmux.conf
+alias mux=tmuxinator $1
+
+# abuse
+alias wproxy_on="networksetup -setwebproxy "Wi-Fi" 127.0.0.1 8080 && networksetup -setsecurewebproxy "Wi-Fi" 127.0.0.1 8080"
+alias wproxy_off="networksetup -setwebproxystate "Wi-fi" off && networksetup -setsecurewebproxystate "Wi-fi" off"
+alias wproxy_info="networksetup -getwebproxy "Wi-Fi" && networksetup -getsecurewebproxy "Wi-Fi""
+
+alias git stayus='git status'
+
+# docker images
+alias metasploit='sudo docker run --rm -it -p 443:443 -v ~/.imgs/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data remnux/metasploit'
+alias kali='sudo docker run -it kalilinux/kali-linux-docker -v ~/.imgs/.kali/etc:/etc/ -v /tmp/:/tmp'
+
+alias firda="frida -U $1"
+alias ta="tmux attach-session -t"
